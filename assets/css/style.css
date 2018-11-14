@@ -1,0 +1,104 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 'Open Sans', sans-serif;
+    color: #777
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font: 400 15px/1.8 'Open Sans', sans-serif;
+}
+
+.gradient1 {
+    position: relative;
+    background-attachment: fixed;
+    background: #e53935;
+    background: linear-gradient(to right, #e53935, #e35d5b);
+    min-height: 100%;
+}
+
+
+.mission {
+    color: #777;
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    color: #111;
+}
+
+.gradient2 {
+    position: relative;
+    background-attachment: fixed;
+    background: #304352;
+    background: linear-gradient(to right, #304352, #d7d2cc);
+    min-height: 400px;
+
+}
+
+.caption{
+    position: absolute;
+    left: 0;
+    top: 37%;
+    width: 100%;
+    text-align: center;
+    color: #000
+}
+
+.caption span.border {
+    color: #ababab;
+    padding: 18px;
+    font-size: 80px;
+    letter-spacing: 10px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px 10px 10px black;
+}
+.caption span.about, span.contact {
+    background-color: transparent;
+    color: #f7f7f7;
+    font-size: 25px;
+}
+
+
+.aboutBlock {
+
+}
+
+.darkBorder {
+    color: #ddd;
+    background-color: #282E34;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.gradient3 {
+    position: relative;
+    background-attachment: fixed;
+    background: #136a8a;
+    background: linear-gradient(to right, #1368a8, #267871);
+    min-height: 400px;
+}
+
+.contactBlock {
+
+}
