@@ -5,6 +5,36 @@ body, html {
     color: #777
 }
 
+.brandnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.brandnav span.brand {
+    float: left;
+    display: block;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(29, 29, 29);
+}
+
+.brandnav span.contact {
+    float: right;
+    display: block;
+    padding: 5px 10px;
+    font-size: 17px;
+    font: 400 15px/1.8 'Open Sans', sans-serif; 
+    color: rgb(29, 29, 29);
+}
+
+.brandnav span.contact a {
+    text-decoration: none;
+    font: 400 15px/1.8 'Open Sans', sans-serif; 
+    color: rgb(29, 29, 29);
+}
+
+
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -20,6 +50,31 @@ body, html {
     text-decoration: none;
     font-size: 17px;
     font: 400 15px/1.8 'Open Sans', sans-serif;
+}
+
+.image {
+    position: relative;
+    background-color: white;
+    background-image: url(../images/steve_fs.jpg);
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 87%;
+    clip: auto;
+}
+
+.insetAbout {
+    position: absolute;
+    bottom: 120px;
+    left: 20px;
+    color: #777;
+    background-color: yellow;
+    text-align: center;
+    padding: 40px 60px;
+    text-align: justify;
+    height: 300px;
+    width: 300px;
 }
 
 .gradient1 {
