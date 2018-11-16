@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
     font: 400 15px/1.8 'Open Sans', sans-serif;
     color: #777
 }
@@ -52,31 +53,6 @@ body, html {
     font: 400 15px/1.8 'Open Sans', sans-serif;
 }
 
-.image {
-    position: relative;
-    background-color: white;
-    background-image: url(../images/steve_fs.jpg);
-    opacity: 0.85;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 87%;
-    clip: auto;
-}
-
-.insetAbout {
-    position: absolute;
-    bottom: 120px;
-    left: 20px;
-    color: #777;
-    background-color: yellow;
-    text-align: center;
-    padding: 40px 60px;
-    text-align: justify;
-    height: 300px;
-    width: 300px;
-}
-
 .gradient1 {
     position: relative;
     background-attachment: fixed;
@@ -99,6 +75,7 @@ h3 {
     text-transform: uppercase;
     font-family: 'Russo One', sans-serif;
     color: #111;
+    margin: 0px;
 }
 
 .gradient2 {
